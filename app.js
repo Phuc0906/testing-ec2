@@ -7,5 +7,5 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.listen(process.env.PORT || 9600, function() {
-    console.log('Listening')
+    console.log('Listening ' + (process.env.PORT || 9600))
 })
